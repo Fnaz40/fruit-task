@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head-sec div{
+    background-image: linear-gradient(#474c54, #5e6679f7, #474c54);
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+#head-sec h1{
+    margin: 19px;
+    padding: 10px;
+    font-size: 29px;
+}
+#price-sec div{
+          background-color: #ffffff;
+          display: flex;
+         justify-content: center;
+}
+#price-sec p{
+    margin: 10px;
+    padding: 15px;
+    font-size: 25px;
+}
+#price-sec input{
+    text-align: center;
+    border-radius: 13px;
+    border-style: ridge;
+    height: 25px;
+    width: 46px;
+}
+#total-price-sec div{
+    background-color: #efe2cc;
+}
+#total-price-sec h3{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 61px;
+}
+#total-price-sec strong{
+    color: red;
+    font-size: 40px;
+}
+img{
+    height: 100px;
+    margin-left: 7px;
+    height: 116px;
+    width: 132px;
+}
+#image-sec{
+    background-image: linear-gradient(#474c54, #5e6679f7, #474c54);
+    display: flex;
+    justify-content: center;
+}
+.fruits-images{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    margin: 39px;
+    width: 181px;
+}
+.exect-price{
+    background-color: #346e34;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.fig-sec{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3f3f3;
+    margin: 10px;
+    padding: 7px;
+}
+.btn-1{
+    text-align: center;
+    border-radius: 22px 0px 0px 22px;
+    margin-left: 10px;
+    border: none;
+    background-image: linear-gradient(to top, #61697deb, #373c3ce6);
+    color: white;
+    font-size: 16px;
+    height: 31px;
+    width: 30px;
+}
+.btn-2{
+    border-radius: 0px 22px 22px 0px;
+    margin-right: 10px;
+    border: none;
+    background-image: linear-gradient(to top, #61697deb, #373c3ce6);
+    color: white;
+    font-size: 16px;
+    height: 31px;
+    width: 30px;
+}
+#fruit-price-dive{
+    display: flex;
+    flex-direction: row;
+}
+#price-input{
+    text-align: center;
+    padding: 9px;
+    height: 11px;
+    width: 70px;
+    font-size: 19px;
+    background-image: linear-gradient(to top, #f8f8f8, #d5d4d4);
+    outline: none;
+    border: 1px solid black;
+}
