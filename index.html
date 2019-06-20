@@ -17,13 +17,13 @@
     </section>
     <section id="price-sec">
         <div>
-            <p><strong>I have Rs.</strong> <input type="text" ></p>
+            <p><strong>I have Rs.</strong> <input type="text" min=0 onmouseout="values(); ></p>
         </div>
     </section>
     <section id="total-price-sec">
         <div>
             <h3>Your total is Rs. 
-                <strong> 0 </strong>
+                <strong>  </strong>
             </h3>
         </div>
     </section>
@@ -37,8 +37,8 @@
                     <img src="images/apple.png" alt="apple-image">
                 </figure>
                 <div id="fruit-price-dive">
-                    <button class="btn-1">-</button><input id="price-input" type="text" value="0"><button
-                        class="btn-2">+</button>
+                    <button onclick="decreaseValue()" id="decrease" class="btn-1">-</button><input class="price-input" id="number" type="text" value="0"><button
+                        onclick="increaseValue" id="increase" class="btn-2">+</button>
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
             </div>
         </div>
     </section>
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js"></script>
 </body>
 
 </html>
