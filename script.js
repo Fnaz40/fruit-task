@@ -5,7 +5,7 @@ function values() {
     val = document.querySelector("input").value;
 }
 function result() {
-    document.querySelector("strong").innerHTML = total_purchase;
+    document.querySelector("span").innerHTML = total_purchase;
 }
 function increaseValue() {
 
