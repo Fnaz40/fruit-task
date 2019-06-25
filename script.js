@@ -1,5 +1,6 @@
 
 
+
 var val = 0, purchase = 0, count_ap = 0, count_ban = 0, count_org = 0, total_purchase = 0;
 function values() {
     val = document.querySelector("input").value;
@@ -8,23 +9,30 @@ function result() {
     document.querySelector("span").innerHTML = total_purchase;
 }
 function increaseValue() {
+    values();
+    if (val > total_purchase) {
+        if (val >= 10) {
+            count_ap += 1;
+            purchase += 10;
+            val = val - purchase;
+            total_purchase = purchase + total_purchase;
+            purchase = 0;
+            document.querySelector("#number").value = count_ap;
+            result();
 
-    if (val >= 10) {
-        count_ap += 1;
-        purchase += 10;
-        val = val - purchase;
-        total_purchase = purchase + total_purchase;
-        purchase = 0;
-        document.querySelector("#number").value = count_ap;
-        result();
+        }
 
+        else {
+            alert("Not Enough Money to buy Apple")
+        }
     }
+
     else {
         alert("Not Enough Money to buy Apple")
     }
 }
 function increaseValueTwo() {
-
+    values();
     if (val >= 15) {
         count_org += 1;
         purchase += 15;
@@ -40,6 +48,7 @@ function increaseValueTwo() {
     }
 }
 function increaseValueThree() {
+    values();
     if (val >= 7) {
         count_ban += 1;
         purchase += 7;
@@ -89,6 +98,7 @@ function decreaseValueThree() {
         result();
     }
 }
+
 
 
 
