@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     margin: 0px;
-    padding: 49px;
+    padding: 47px;
     font-size: 30px;
 }
 img{
@@ -58,7 +58,7 @@ img{
     display: flex;
     flex-direction: column;
     background-color: #f3f3f3;
-    margin: 39px;
+    margin: 36px;
     width: 181px;
 }
 .exect-price{
